@@ -1,0 +1,23 @@
+datasets:
+  cifar:
+    known_bank_size: 17000
+    q_sizes: [100, 200, 500, 1000]
+    final_diagonal_checkpoint: cifar-epoch-019-diagonal.pt
+    tau: 0.000291274889605
+  ucid:
+    known_bank_size: 4500
+    unknown_bank_size: 850
+    q_sizes: [100, 200, 400, 500]
+    final_diagonal_checkpoint: ucid-epoch-040-diagonal.pt
+    tau: 3.56459022441e-05
+  flickr:
+    known_bank_size: 10000
+    q_sizes: [100, 200, 500, 1000]
+    final_diagonal_checkpoint: flickr-epoch-028-diagonal.pt
+    tau: 2.03588570002e-06
+  amazon:
+    known_bank_size: 35000
+    q_sizes: [100, 200, 500, 1000]
+    final_diagonal_checkpoint: amazon-epoch-037-diagonal.pt
+    tau: 3.77926170358e-08
+

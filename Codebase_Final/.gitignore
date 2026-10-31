@@ -1,0 +1,29 @@
+# Python runtime files
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local configuration and virtual environments
+.env
+.venv/
+venv/
+
+# Generated project outputs: retain outside this source repository.
+artifacts/
+checkpoints/
+embeddings/
+indices/
+logs/
+results/
+data/raw/
+data/processed/
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

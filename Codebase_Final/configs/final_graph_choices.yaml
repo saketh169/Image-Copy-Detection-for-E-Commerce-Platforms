@@ -1,0 +1,54 @@
+version: 1
+selection_policy:
+  exact_match_required: true
+  priority: [tail_latency, q_stability, sensible_centroid_count, speedup]
+  attack_panel: configs/attacks_final19.json
+datasets:
+  ucid:
+    embedding_bank_size: 4500
+    query_sizes: [100, 200, 400, 500]
+    hnsw:
+      centroids: 256
+      overlap: 2
+      entries: 1
+      degree: 24
+      ef_search: 16
+      ef_construction: 96
+    speedup_min_avg_max: [2.615, 2.760, 2.829]
+    exact_match_percent: 100.0
+  flickr:
+    embedding_bank_size: 10000
+    query_sizes: [100, 200, 500, 1000]
+    hnsw:
+      centroids: 2048
+      overlap: 3
+      entries: 1
+      degree: 12
+      ef_search: 12
+      ef_construction: 64
+    speedup_min_avg_max: [12.062, 12.255, 12.475]
+    exact_match_percent: 100.0
+  cifar:
+    embedding_bank_size: 17000
+    query_sizes: [100, 200, 500, 1000]
+    hnsw:
+      centroids: 1536
+      overlap: 3
+      entries: 2
+      degree: 32
+      ef_search: 16
+      ef_construction: 128
+    speedup_min_avg_max: [10.745, 10.789, 10.912]
+    exact_match_percent: 100.0
+  amazon:
+    embedding_bank_size: 35000
+    query_sizes: [100, 200, 500, 1000]
+    hnsw:
+      centroids: 2048
+      overlap: 1
+      entries: 3
+      degree: 32
+      ef_search: 32
+      ef_construction: 128
+    speedup_min_avg_max: [15.262, 15.458, 15.706]
+    exact_match_percent: 100.0

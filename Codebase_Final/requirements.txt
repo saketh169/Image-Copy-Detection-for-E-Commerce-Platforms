@@ -1,0 +1,21 @@
+# Core numerical and image stack
+numpy
+pandas
+Pillow
+opencv-python
+scikit-learn
+scipy
+tqdm
+PyYAML
+
+# Deep learning
+torch
+torchvision
+timm
+
+# Approximate-nearest-neighbor baselines and verification
+faiss-cpu
+hnswlib
+
+# Development validation
+pytest
