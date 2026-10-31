@@ -1,0 +1,69 @@
+{
+  "refreshed_at": "2026-07-26 11:59:25",
+  "source": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725",
+  "files": [
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/final_picks_ordered_speed_and_centroids_lowest_20260725.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\final_picks_ordered_speed_and_centroids_lowest_20260725.json",
+      "remote_size": 14320,
+      "local_size": 14320,
+      "size_match": true
+    },
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/final_centroid_scaled_ordered_picks_20260725.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\final_centroid_scaled_ordered_picks_20260725.json",
+      "remote_size": 18626,
+      "local_size": 18626,
+      "size_match": true
+    },
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/final_picks_with_fixed_ucid_reference_20260725.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\final_picks_with_fixed_ucid_reference_20260725.json",
+      "remote_size": 14165,
+      "local_size": 14165,
+      "size_match": true
+    },
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/top20_minmatch_ge99_by_dataset_method_user_priority.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\top20_minmatch_ge99_by_dataset_method_user_priority.json",
+      "remote_size": 386846,
+      "local_size": 386846,
+      "size_match": true
+    },
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/all_candidates_minmatch_ge99_ranked_user_priority.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\all_candidates_minmatch_ge99_ranked_user_priority.json",
+      "remote_size": 23517461,
+      "local_size": 23517461,
+      "size_match": true
+    },
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/amazon_all_centroids_max_balanced_gap5_20260725.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\amazon_all_centroids_max_balanced_gap5_20260725.json",
+      "remote_size": 115949,
+      "local_size": 115949,
+      "size_match": true
+    },
+    {
+      "dataset": "final_candidates",
+      "label": "json",
+      "remote": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_ranked_imagecopy_candidates_20260725/paired_user_fixed_centroid_sets_20260725.json",
+      "local": "C:\\Users\\saket\\Test\\Final_Artifacts\\json\\final_candidates\\paired_user_fixed_centroid_sets_20260725.json",
+      "remote_size": 202902,
+      "local_size": 202902,
+      "size_match": true
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "cifar": [
+    {
+      "label": "training_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cifar/cifar-epoch-015-training.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "loss"
+      ]
+    },
+    {
+      "label": "diagonal_base_metric",
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/cifar/cifar-fresh-bank-metric-layer-best.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cifar/key_diagonal_refinement/cifar-fresh-bank-metric-layer-best.pt",
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "dataset",
+        "architecture",
+        "global_tau",
+        "source_checkpoint",
+        "metrics_q100_same_bank",
+        "distance_rule",
+        "attack_mode",
+        "excluded_attacks",
+        "kept_attacks"
+      ]
+    },
+    {
+      "label": "diagonal_accept_000",
+      "source": "/home/saketh/Codebase/checkpoints/latest_folded_q100_20attack_nearest_search_20260716/cifar/cifar-latest-q100-20attack-nearest-accepted-000.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cifar/key_diagonal_refinement/cifar-latest-q100-20attack-nearest-accepted-000.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    },
+    {
+      "label": "diagonal_accept_065",
+      "source": "/home/saketh/Codebase/checkpoints/latest_folded_q100_20attack_nearest_search_20260716/cifar/cifar-latest-q100-20attack-nearest-accepted-065.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cifar/key_diagonal_refinement/cifar-latest-q100-20attack-nearest-accepted-065.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    },
+    {
+      "label": "diagonal_accept_704",
+      "source": "/home/saketh/Codebase/checkpoints/latest_folded_q100_20attack_nearest_search_20260716/cifar/cifar-latest-q100-20attack-nearest-accepted-704.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cifar/key_diagonal_refinement/cifar-latest-q100-20attack-nearest-accepted-704.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    }
+  ],
+  "ucid": [
+    {
+      "label": "training_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/ucid/ucid-epoch-027-training.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "loss"
+      ]
+    },
+    {
+      "label": "adjustment_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/ucid/ucid-epoch-037-adjustment.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "epoch",
+        "summary"
+      ]
+    },
+    {
+      "label": "diagonal_base_metric",
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/ucid/ucid-fresh-bank-metric-layer-best.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/ucid/key_diagonal_refinement/ucid-fresh-bank-metric-layer-best.pt",
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "dataset",
+        "architecture",
+        "global_tau",
+        "source_checkpoint",
+        "metrics_q100_same_bank",
+        "distance_rule",
+        "attack_mode",
+        "excluded_attacks",
+        "kept_attacks"
+      ]
+    },
+    {
+      "label": "diagonal_accept_000",
+      "source": "/home/saketh/Codebase/checkpoints/ucid_unknown_focused_diagonal_search_20260716/ucid/ucid-clean-nearest-bank-accepted-000.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/ucid/key_diagonal_refinement/ucid-clean-nearest-bank-accepted-000.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "score",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    },
+    {
+      "label": "diagonal_accept_004",
+      "source": "/home/saketh/Codebase/checkpoints/ucid_unknown_focused_diagonal_search_20260716/ucid/ucid-clean-nearest-bank-accepted-004.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/ucid/key_diagonal_refinement/ucid-clean-nearest-bank-accepted-004.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "score",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    }
+  ],
+  "flickr": [
+    {
+      "label": "training_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/flickr/flickr-epoch-024-training.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "loss"
+      ]
+    },
+    {
+      "label": "adjustment_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/flickr/flickr-epoch-026-adjustment.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "epoch",
+        "summary"
+      ]
+    },
+    {
+      "label": "diagonal_base_metric",
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/flickr/flickr-fresh-bank-metric-layer-best.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/flickr/key_diagonal_refinement/flickr-fresh-bank-metric-layer-best.pt",
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "dataset",
+        "architecture",
+        "global_tau",
+        "source_checkpoint",
+        "metrics_q100_same_bank",
+        "distance_rule",
+        "attack_mode",
+        "excluded_attacks",
+        "kept_attacks"
+      ]
+    },
+    {
+      "label": "diagonal_accept_1381",
+      "source": "/home/saketh/Codebase/checkpoints/latest_folded_q100_20attack_nearest_search_20260716/flickr/flickr-latest-q100-20attack-nearest-accepted-1381.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/flickr/key_diagonal_refinement/flickr-latest-q100-20attack-nearest-accepted-1381.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    }
+  ],
+  "amazon": [
+    {
+      "label": "training_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/amazon/amazon-epoch-031-training.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "epoch",
+        "model_state_dict",
+        "optimizer_state_dict",
+        "loss"
+      ]
+    },
+    {
+      "label": "adjustment_selected",
+      "source": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/amazon/amazon-epoch-034-adjustment.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": null,
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "epoch",
+        "summary"
+      ]
+    },
+    {
+      "label": "diagonal_base_metric",
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/amazon/amazon-fresh-bank-metric-layer-best.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/amazon/key_diagonal_refinement/amazon-fresh-bank-metric-layer-best.pt",
+      "note": "",
+      "keys": [
+        "model_state_dict",
+        "dataset",
+        "architecture",
+        "global_tau",
+        "source_checkpoint",
+        "metrics_q100_same_bank",
+        "distance_rule",
+        "attack_mode",
+        "excluded_attacks",
+        "kept_attacks"
+      ]
+    },
+    {
+      "label": "diagonal_accept_011",
+      "source": "/home/saketh/Codebase/checkpoints/latest_folded_q100_20attack_nearest_search_20260716/amazon/amazon-latest-q100-20attack-nearest-accepted-011.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/amazon/key_diagonal_refinement/amazon-latest-q100-20attack-nearest-accepted-011.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    },
+    {
+      "label": "diagonal_accept_013",
+      "source": "/home/saketh/Codebase/checkpoints/latest_folded_q100_20attack_nearest_search_20260716/amazon/amazon-latest-q100-20attack-nearest-accepted-013.pt",
+      "exists": true,
+      "loadable": true,
+      "copied_to": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/amazon/key_diagonal_refinement/amazon-latest-q100-20attack-nearest-accepted-013.pt",
+      "note": "",
+      "keys": [
+        "architecture",
+        "dataset",
+        "model_state_dict",
+        "global_tau",
+        "source_checkpoint",
+        "search_rule",
+        "metrics_q100_nearest_bank_20attacks",
+        "kept_attacks",
+        "excluded_attacks",
+        "distance_rule"
+      ]
+    }
+  ]
+}

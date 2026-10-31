@@ -1,0 +1,62 @@
+# Final HNSW selections reported in Timing.md.
+# Every selection matched direct search on every full-Q query across all 19 attacks.
+
+selection_criteria:
+  - exact direct-search agreement on every query
+  - low worst-case per-query latency
+  - stable mean latency across the tested Q sizes
+  - middle-to-large centroid count appropriate to bank size
+  - verified speedup without changing the retrieval decision
+
+choices:
+  ucid:
+    bank_embeddings: 4500
+    q_sizes: [100, 200, 400, 500]
+    centroids: 256
+    overlap: 2
+    entries: 1
+    degree: 24
+    ef: 16
+    ef_construction: 96
+    speedup_min_avg_max: [2.615, 2.760, 2.829]
+    full_query_worst_ms: 0.098795
+    direct_search_match: "100 percent across all 19 attacks"
+
+  flickr:
+    bank_embeddings: 10000
+    q_sizes: [100, 200, 500, 1000]
+    centroids: 2048
+    overlap: 3
+    entries: 1
+    degree: 12
+    ef: 12
+    ef_construction: 64
+    speedup_min_avg_max: [12.062, 12.255, 12.475]
+    full_query_worst_ms: 0.087046
+    direct_search_match: "100 percent across all 19 attacks"
+
+  cifar:
+    bank_embeddings: 17000
+    q_sizes: [100, 200, 500, 1000]
+    centroids: 1536
+    overlap: 3
+    entries: 2
+    degree: 32
+    ef: 16
+    ef_construction: 128
+    speedup_min_avg_max: [10.745, 10.789, 10.912]
+    full_query_worst_ms: 0.173755
+    direct_search_match: "100 percent across all 19 attacks"
+
+  amazon:
+    bank_embeddings: 35000
+    q_sizes: [100, 200, 500, 1000]
+    centroids: 2048
+    overlap: 1
+    entries: 3
+    degree: 32
+    ef: 32
+    ef_construction: 128
+    speedup_min_avg_max: [15.262, 15.458, 15.706]
+    full_query_worst_ms: 0.335629
+    direct_search_match: "100 percent across all 19 attacks"

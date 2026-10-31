@@ -1,0 +1,3702 @@
+[
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.73418685207907,
+      "avg_speed": 36.67186733605778,
+      "max_speed": 37.495397313613125,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46375,
+      "speed_cv": 0.018661402192794323,
+      "time_cv": 0.02182679077697083,
+      "speed_spread": 1.0492864289545625,
+      "avg_seen": 711.0701875,
+      "avg_visited": 1.44775,
+      "overhead": 38.16915375,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.1327363670570776,
+          "speedup": 35.73418685207907,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 722.311,
+          "avg_visited": 1.43925
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.13078630552627146,
+          "speedup": 36.33564257273789,
+          "decision_match": 99.41250000000001,
+          "timing_decision_match": 99.325,
+          "avg_seen": 708.55275,
+          "avg_visited": 1.44875
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12551845714915544,
+          "speedup": 37.495397313613125,
+          "decision_match": 99.46000000000001,
+          "timing_decision_match": 99.6,
+          "avg_seen": 712.50425,
+          "avg_visited": 1.4535
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12740505649708211,
+          "speedup": 37.122242605801034,
+          "decision_match": 99.63250000000001,
+          "timing_decision_match": 99.675,
+          "avg_seen": 700.91275,
+          "avg_visited": 1.4495
+        }
+      },
+      "rank": [
+        0.018661402192794323,
+        0.02182679077697083,
+        38.16915375,
+        -36.67186733605778,
+        -35.73418685207907,
+        128,
+        -99.46375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 37.725373977838814,
+    "avg_gap": 2.107013283562061
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.62599253783095,
+      "avg_speed": 36.63620484436917,
+      "max_speed": 37.53685005400947,
+      "min_match": 99.3125,
+      "avg_match": 99.41499999999999,
+      "speed_cv": 0.020643827377481286,
+      "time_cv": 0.023830557549829438,
+      "speed_spread": 1.0536366113631612,
+      "avg_seen": 741.610375,
+      "avg_visited": 1.5060625,
+      "overhead": 46.838269999999994,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13313948060385883,
+          "speedup": 35.62599253783095,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 764.58,
+          "avg_visited": 1.492
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1312166654970497,
+          "speedup": 36.21647016413737,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 731.47975,
+          "avg_visited": 1.49875
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12537984445225447,
+          "speedup": 37.53685005400947,
+          "decision_match": 99.42999999999999,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 739.109,
+          "avg_visited": 1.5095
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1272567454725504,
+          "speedup": 37.16550662149888,
+          "decision_match": 99.5925,
+          "timing_decision_match": 99.65,
+          "avg_seen": 731.27275,
+          "avg_visited": 1.524
+        }
+      },
+      "rank": [
+        0.020643827377481286,
+        0.023830557549829438,
+        46.838269999999994,
+        -36.63620484436917,
+        -35.62599253783095,
+        128,
+        -99.41499999999999
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 37.70754273199451,
+    "avg_gap": 2.142675775250673
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.73418685207907,
+      "avg_speed": 36.67186733605778,
+      "max_speed": 37.495397313613125,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46375,
+      "speed_cv": 0.018661402192794323,
+      "time_cv": 0.02182679077697083,
+      "speed_spread": 1.0492864289545625,
+      "avg_seen": 711.0701875,
+      "avg_visited": 1.44775,
+      "overhead": 38.16915375,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.1327363670570776,
+          "speedup": 35.73418685207907,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 722.311,
+          "avg_visited": 1.43925
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.13078630552627146,
+          "speedup": 36.33564257273789,
+          "decision_match": 99.41250000000001,
+          "timing_decision_match": 99.325,
+          "avg_seen": 708.55275,
+          "avg_visited": 1.44875
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12551845714915544,
+          "speedup": 37.495397313613125,
+          "decision_match": 99.46000000000001,
+          "timing_decision_match": 99.6,
+          "avg_seen": 712.50425,
+          "avg_visited": 1.4535
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12740505649708211,
+          "speedup": 37.122242605801034,
+          "decision_match": 99.63250000000001,
+          "timing_decision_match": 99.675,
+          "avg_seen": 700.91275,
+          "avg_visited": 1.4495
+        }
+      },
+      "rank": [
+        0.018661402192794323,
+        0.02182679077697083,
+        38.16915375,
+        -36.67186733605778,
+        -35.73418685207907,
+        128,
+        -99.46375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 37.09034258970388,
+    "avg_gap": 0.836950507292201
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.62599253783095,
+      "avg_speed": 36.63620484436917,
+      "max_speed": 37.53685005400947,
+      "min_match": 99.3125,
+      "avg_match": 99.41499999999999,
+      "speed_cv": 0.020643827377481286,
+      "time_cv": 0.023830557549829438,
+      "speed_spread": 1.0536366113631612,
+      "avg_seen": 741.610375,
+      "avg_visited": 1.5060625,
+      "overhead": 46.838269999999994,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13313948060385883,
+          "speedup": 35.62599253783095,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 764.58,
+          "avg_visited": 1.492
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1312166654970497,
+          "speedup": 36.21647016413737,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 731.47975,
+          "avg_visited": 1.49875
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12537984445225447,
+          "speedup": 37.53685005400947,
+          "decision_match": 99.42999999999999,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 739.109,
+          "avg_visited": 1.5095
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1272567454725504,
+          "speedup": 37.16550662149888,
+          "decision_match": 99.5925,
+          "timing_decision_match": 99.65,
+          "avg_seen": 731.27275,
+          "avg_visited": 1.524
+        }
+      },
+      "rank": [
+        0.020643827377481286,
+        0.023830557549829438,
+        46.838269999999994,
+        -36.63620484436917,
+        -35.62599253783095,
+        128,
+        -99.41499999999999
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 37.072511343859574,
+    "avg_gap": 0.8726129989808129
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 2,
+      "ef": 2,
+      "min_speed": 33.18815737869274,
+      "avg_speed": 35.05330502514857,
+      "max_speed": 35.74756406591409,
+      "min_match": 99.0375,
+      "avg_match": 99.19062499999998,
+      "speed_cv": 0.030749677971689027,
+      "time_cv": 0.03348225131527164,
+      "speed_spread": 1.0771180713052941,
+      "avg_seen": 741.296125,
+      "avg_visited": 1.5158749999999999,
+      "overhead": 40.8417975,
+      "candidate_index": 655,
+      "iter_block": "A_core_fast",
+      "block_index": 15,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14291923737619072,
+          "speedup": 33.18815737869274,
+          "decision_match": 99.1,
+          "timing_decision_match": 99.1,
+          "avg_seen": 773.631,
+          "avg_visited": 1.50575
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.13342834590002894,
+          "speedup": 35.61615351637558,
+          "decision_match": 99.0375,
+          "timing_decision_match": 98.925,
+          "avg_seen": 724.433,
+          "avg_visited": 1.50925
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13165552797727287,
+          "speedup": 35.74756406591409,
+          "decision_match": 99.22,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 737.9895,
+          "avg_visited": 1.51625
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13262431346811354,
+          "speedup": 35.661345139611846,
+          "decision_match": 99.405,
+          "timing_decision_match": 99.375,
+          "avg_seen": 729.131,
+          "avg_visited": 1.53225
+        }
+      },
+      "rank": [
+        0.030749677971689027,
+        0.03348225131527164,
+        40.8417975,
+        -35.05330502514857,
+        -33.18815737869274,
+        128,
+        -99.19062499999998
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 36.9160928223842,
+    "avg_gap": 3.725575594471273
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 33.17656764289086,
+      "avg_speed": 34.6037835965666,
+      "max_speed": 36.07640602067991,
+      "min_match": 99.325,
+      "avg_match": 99.42375,
+      "speed_cv": 0.03409651696778362,
+      "time_cv": 0.036757535099624386,
+      "speed_spread": 1.0874062202275598,
+      "avg_seen": 739.507875,
+      "avg_visited": 1.4861875,
+      "overhead": 34.776345,
+      "candidate_index": 649,
+      "iter_block": "A_core_fast",
+      "block_index": 9,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14296916406601667,
+          "speedup": 33.17656764289086,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 752.333,
+          "avg_visited": 1.4735
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1407813464757055,
+          "speedup": 33.75592413325566,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 739.7,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13292472949251533,
+          "speedup": 35.40623658943998,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.575,
+          "avg_seen": 735.217,
+          "avg_visited": 1.488
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13109846401493996,
+          "speedup": 36.07640602067991,
+          "decision_match": 99.58,
+          "timing_decision_match": 99.65,
+          "avg_seen": 730.7815,
+          "avg_visited": 1.50275
+        }
+      },
+      "rank": [
+        0.03409651696778362,
+        0.036757535099624386,
+        34.776345,
+        -34.6037835965666,
+        -33.17656764289086,
+        128,
+        -99.42375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 36.69133210809322,
+    "avg_gap": 4.17509702305324
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 2,
+      "ef": 2,
+      "min_speed": 33.18815737869274,
+      "avg_speed": 35.05330502514857,
+      "max_speed": 35.74756406591409,
+      "min_match": 99.0375,
+      "avg_match": 99.19062499999998,
+      "speed_cv": 0.030749677971689027,
+      "time_cv": 0.03348225131527164,
+      "speed_spread": 1.0771180713052941,
+      "avg_seen": 741.296125,
+      "avg_visited": 1.5158749999999999,
+      "overhead": 40.8417975,
+      "candidate_index": 655,
+      "iter_block": "A_core_fast",
+      "block_index": 15,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14291923737619072,
+          "speedup": 33.18815737869274,
+          "decision_match": 99.1,
+          "timing_decision_match": 99.1,
+          "avg_seen": 773.631,
+          "avg_visited": 1.50575
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.13342834590002894,
+          "speedup": 35.61615351637558,
+          "decision_match": 99.0375,
+          "timing_decision_match": 98.925,
+          "avg_seen": 724.433,
+          "avg_visited": 1.50925
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13165552797727287,
+          "speedup": 35.74756406591409,
+          "decision_match": 99.22,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 737.9895,
+          "avg_visited": 1.51625
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13262431346811354,
+          "speedup": 35.661345139611846,
+          "decision_match": 99.405,
+          "timing_decision_match": 99.375,
+          "avg_seen": 729.131,
+          "avg_visited": 1.53225
+        }
+      },
+      "rank": [
+        0.030749677971689027,
+        0.03348225131527164,
+        40.8417975,
+        -35.05330502514857,
+        -33.18815737869274,
+        128,
+        -99.19062499999998
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 36.281061434249274,
+    "avg_gap": 2.455512818201413
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 33.17656764289086,
+      "avg_speed": 34.6037835965666,
+      "max_speed": 36.07640602067991,
+      "min_match": 99.325,
+      "avg_match": 99.42375,
+      "speed_cv": 0.03409651696778362,
+      "time_cv": 0.036757535099624386,
+      "speed_spread": 1.0874062202275598,
+      "avg_seen": 739.507875,
+      "avg_visited": 1.4861875,
+      "overhead": 34.776345,
+      "candidate_index": 649,
+      "iter_block": "A_core_fast",
+      "block_index": 9,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14296916406601667,
+          "speedup": 33.17656764289086,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 752.333,
+          "avg_visited": 1.4735
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1407813464757055,
+          "speedup": 33.75592413325566,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 739.7,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13292472949251533,
+          "speedup": 35.40623658943998,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.575,
+          "avg_seen": 735.217,
+          "avg_visited": 1.488
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13109846401493996,
+          "speedup": 36.07640602067991,
+          "decision_match": 99.58,
+          "timing_decision_match": 99.65,
+          "avg_seen": 730.7815,
+          "avg_visited": 1.50275
+        }
+      },
+      "rank": [
+        0.03409651696778362,
+        0.036757535099624386,
+        34.776345,
+        -34.6037835965666,
+        -33.17656764289086,
+        128,
+        -99.42375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 36.05630071995829,
+    "avg_gap": 2.90503424678338
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.78598608425461,
+      "avg_speed": 33.09124047412177,
+      "max_speed": 34.75310198990946,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.03219549277017838,
+      "time_cv": 0.032683048955296855,
+      "speed_spread": 1.093346668490635,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14922381611540914,
+          "speedup": 31.78598608425461,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14406022592447698,
+          "speedup": 32.98762320074952,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.1433195840800181,
+          "speedup": 32.83825062157348,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13609033857937902,
+          "speedup": 34.75310198990946,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.03219549277017838,
+        0.032683048955296855,
+        29.59780125,
+        -33.09124047412177,
+        -31.78598608425461,
+        128,
+        -99.4975
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 35.9350605468708,
+    "avg_gap": 5.687640145498072
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.660005562413385,
+      "avg_speed": 32.744786596449835,
+      "max_speed": 33.84840494829628,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46062500000001,
+      "speed_cv": 0.02800989278337565,
+      "time_cv": 0.030809507171059593,
+      "speed_spread": 1.069121888862867,
+      "avg_seen": 767.18375,
+      "avg_visited": 1.487875,
+      "overhead": 31.33155,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14981760294176638,
+          "speedup": 31.660005562413385,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 777.81925,
+          "avg_visited": 1.478
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14832579053472728,
+          "speedup": 32.038962569350794,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 772.54825,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.14077519543934613,
+          "speedup": 33.431773305738886,
+          "decision_match": 99.48,
+          "timing_decision_match": 99.65,
+          "avg_seen": 761.052,
+          "avg_visited": 1.4895
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1397277485812083,
+          "speedup": 33.84840494829628,
+          "decision_match": 99.6125,
+          "timing_decision_match": 99.675,
+          "avg_seen": 757.3155,
+          "avg_visited": 1.5035
+        }
+      },
+      "rank": [
+        0.02800989278337565,
+        0.030809507171059593,
+        31.33155,
+        -32.744786596449835,
+        -31.660005562413385,
+        128,
+        -99.46062500000001
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 35.761833608034834,
+    "avg_gap": 6.034094023170006
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.78598608425461,
+      "avg_speed": 33.09124047412177,
+      "max_speed": 34.75310198990946,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.03219549277017838,
+      "time_cv": 0.032683048955296855,
+      "speed_spread": 1.093346668490635,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14922381611540914,
+          "speedup": 31.78598608425461,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14406022592447698,
+          "speedup": 32.98762320074952,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.1433195840800181,
+          "speedup": 32.83825062157348,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13609033857937902,
+          "speedup": 34.75310198990946,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.03219549277017838,
+        0.032683048955296855,
+        29.59780125,
+        -33.09124047412177,
+        -31.78598608425461,
+        128,
+        -99.4975
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 35.300029158735875,
+    "avg_gap": 4.417577369228212
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.660005562413385,
+      "avg_speed": 32.744786596449835,
+      "max_speed": 33.84840494829628,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46062500000001,
+      "speed_cv": 0.02800989278337565,
+      "time_cv": 0.030809507171059593,
+      "speed_spread": 1.069121888862867,
+      "avg_seen": 767.18375,
+      "avg_visited": 1.487875,
+      "overhead": 31.33155,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14981760294176638,
+          "speedup": 31.660005562413385,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 777.81925,
+          "avg_visited": 1.478
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14832579053472728,
+          "speedup": 32.038962569350794,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 772.54825,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.14077519543934613,
+          "speedup": 33.431773305738886,
+          "decision_match": 99.48,
+          "timing_decision_match": 99.65,
+          "avg_seen": 761.052,
+          "avg_visited": 1.4895
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1397277485812083,
+          "speedup": 33.84840494829628,
+          "decision_match": 99.6125,
+          "timing_decision_match": 99.675,
+          "avg_seen": 757.3155,
+          "avg_visited": 1.5035
+        }
+      },
+      "rank": [
+        0.02800989278337565,
+        0.030809507171059593,
+        31.33155,
+        -32.744786596449835,
+        -31.660005562413385,
+        128,
+        -99.46062500000001
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 35.12680221989991,
+    "avg_gap": 4.764031246900146
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 33.17656764289086,
+      "avg_speed": 34.6037835965666,
+      "max_speed": 36.07640602067991,
+      "min_match": 99.325,
+      "avg_match": 99.42375,
+      "speed_cv": 0.03409651696778362,
+      "time_cv": 0.036757535099624386,
+      "speed_spread": 1.0874062202275598,
+      "avg_seen": 739.507875,
+      "avg_visited": 1.4861875,
+      "overhead": 34.776345,
+      "candidate_index": 649,
+      "iter_block": "A_core_fast",
+      "block_index": 9,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14296916406601667,
+          "speedup": 33.17656764289086,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 752.333,
+          "avg_visited": 1.4735
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1407813464757055,
+          "speedup": 33.75592413325566,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 739.7,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13292472949251533,
+          "speedup": 35.40623658943998,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.575,
+          "avg_seen": 735.217,
+          "avg_visited": 1.488
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13109846401493996,
+          "speedup": 36.07640602067991,
+          "decision_match": 99.58,
+          "timing_decision_match": 99.65,
+          "avg_seen": 730.7815,
+          "avg_visited": 1.50275
+        }
+      },
+      "rank": [
+        0.03409651696778362,
+        0.036757535099624386,
+        34.776345,
+        -34.6037835965666,
+        -33.17656764289086,
+        128,
+        -99.42375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.475514256721254,
+      "avg_speed": 34.27166131711488,
+      "max_speed": 35.87571218092888,
+      "min_match": 99.325,
+      "avg_match": 99.423125,
+      "speed_cv": 0.04066541175077968,
+      "time_cv": 0.043581319800348836,
+      "speed_spread": 1.1047003566234184,
+      "avg_seen": 739.1089374999999,
+      "avg_visited": 1.5009374999999998,
+      "overhead": 34.78311625,
+      "candidate_index": 649,
+      "iter_block": "A_core_fast",
+      "block_index": 9,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14605545904487371,
+          "speedup": 32.475514256721254,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 751.80125,
+          "avg_visited": 1.484
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1423674289835617,
+          "speedup": 33.37985721130219,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 740.55325,
+          "avg_visited": 1.4985
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13311524991877377,
+          "speedup": 35.3555616195072,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.575,
+          "avg_seen": 736.92975,
+          "avg_visited": 1.504
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13183184748049825,
+          "speedup": 35.87571218092888,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 727.1515,
+          "avg_visited": 1.51725
+        }
+      },
+      "rank": [
+        0.04066541175077968,
+        0.043581319800348836,
+        34.78311625,
+        -34.27166131711488,
+        -32.475514256721254,
+        128,
+        -99.423125
+      ]
+    },
+    "pair_avg": 34.43772245684074,
+    "avg_gap": -0.332122279451724
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 3,
+      "degree": 24,
+      "entries": 2,
+      "ef": 2,
+      "min_speed": 26.577313235383528,
+      "avg_speed": 28.769602142459192,
+      "max_speed": 30.37246440593686,
+      "min_match": 99.3125,
+      "avg_match": 99.48375,
+      "speed_cv": 0.053498704660475106,
+      "time_cv": 0.057640739282524625,
+      "speed_spread": 1.142796645279429,
+      "avg_seen": 1014.93325,
+      "avg_visited": 1.5099375000000002,
+      "overhead": 55.0586025,
+      "candidate_index": 679,
+      "iter_block": "A_core_fast",
+      "block_index": 39,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.16890148143284023,
+          "speedup": 28.082797748401028,
+          "decision_match": 99.425,
+          "timing_decision_match": 99.425,
+          "avg_seen": 1040.837,
+          "avg_visited": 1.5035
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.17880680446978658,
+          "speedup": 26.577313235383528,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.2,
+          "avg_seen": 994.22025,
+          "avg_visited": 1.49975
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.15663950447924435,
+          "speedup": 30.045833180115352,
+          "decision_match": 99.55000000000001,
+          "timing_decision_match": 99.675,
+          "avg_seen": 1015.8495,
+          "avg_visited": 1.5095
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.15571872447617352,
+          "speedup": 30.37246440593686,
+          "decision_match": 99.6475,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 1008.82625,
+          "avg_visited": 1.527
+        }
+      },
+      "rank": [
+        0.053498704660475106,
+        0.057640739282524625,
+        55.0586025,
+        -28.769602142459192,
+        -26.577313235383528,
+        128,
+        -99.48375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 33.774241381039516,
+    "avg_gap": 10.009278477160649
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.78598608425461,
+      "avg_speed": 33.09124047412177,
+      "max_speed": 34.75310198990946,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.03219549277017838,
+      "time_cv": 0.032683048955296855,
+      "speed_spread": 1.093346668490635,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14922381611540914,
+          "speedup": 31.78598608425461,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14406022592447698,
+          "speedup": 32.98762320074952,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.1433195840800181,
+          "speedup": 32.83825062157348,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13609033857937902,
+          "speedup": 34.75310198990946,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.03219549277017838,
+        0.032683048955296855,
+        29.59780125,
+        -33.09124047412177,
+        -31.78598608425461,
+        128,
+        -99.4975
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.475514256721254,
+      "avg_speed": 34.27166131711488,
+      "max_speed": 35.87571218092888,
+      "min_match": 99.325,
+      "avg_match": 99.423125,
+      "speed_cv": 0.04066541175077968,
+      "time_cv": 0.043581319800348836,
+      "speed_spread": 1.1047003566234184,
+      "avg_seen": 739.1089374999999,
+      "avg_visited": 1.5009374999999998,
+      "overhead": 34.78311625,
+      "candidate_index": 649,
+      "iter_block": "A_core_fast",
+      "block_index": 9,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14605545904487371,
+          "speedup": 32.475514256721254,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 751.80125,
+          "avg_visited": 1.484
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1423674289835617,
+          "speedup": 33.37985721130219,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 740.55325,
+          "avg_visited": 1.4985
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13311524991877377,
+          "speedup": 35.3555616195072,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.575,
+          "avg_seen": 736.92975,
+          "avg_visited": 1.504
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13183184748049825,
+          "speedup": 35.87571218092888,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 727.1515,
+          "avg_visited": 1.51725
+        }
+      },
+      "rank": [
+        0.04066541175077968,
+        0.043581319800348836,
+        34.78311625,
+        -34.27166131711488,
+        -32.475514256721254,
+        128,
+        -99.423125
+      ]
+    },
+    "pair_avg": 33.681450895618326,
+    "avg_gap": 1.180420842993108
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.660005562413385,
+      "avg_speed": 32.744786596449835,
+      "max_speed": 33.84840494829628,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46062500000001,
+      "speed_cv": 0.02800989278337565,
+      "time_cv": 0.030809507171059593,
+      "speed_spread": 1.069121888862867,
+      "avg_seen": 767.18375,
+      "avg_visited": 1.487875,
+      "overhead": 31.33155,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14981760294176638,
+          "speedup": 31.660005562413385,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 777.81925,
+          "avg_visited": 1.478
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14832579053472728,
+          "speedup": 32.038962569350794,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 772.54825,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.14077519543934613,
+          "speedup": 33.431773305738886,
+          "decision_match": 99.48,
+          "timing_decision_match": 99.65,
+          "avg_seen": 761.052,
+          "avg_visited": 1.4895
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1397277485812083,
+          "speedup": 33.84840494829628,
+          "decision_match": 99.6125,
+          "timing_decision_match": 99.675,
+          "avg_seen": 757.3155,
+          "avg_visited": 1.5035
+        }
+      },
+      "rank": [
+        0.02800989278337565,
+        0.030809507171059593,
+        31.33155,
+        -32.744786596449835,
+        -31.660005562413385,
+        128,
+        -99.46062500000001
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.475514256721254,
+      "avg_speed": 34.27166131711488,
+      "max_speed": 35.87571218092888,
+      "min_match": 99.325,
+      "avg_match": 99.423125,
+      "speed_cv": 0.04066541175077968,
+      "time_cv": 0.043581319800348836,
+      "speed_spread": 1.1047003566234184,
+      "avg_seen": 739.1089374999999,
+      "avg_visited": 1.5009374999999998,
+      "overhead": 34.78311625,
+      "candidate_index": 649,
+      "iter_block": "A_core_fast",
+      "block_index": 9,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14605545904487371,
+          "speedup": 32.475514256721254,
+          "decision_match": 99.325,
+          "timing_decision_match": 99.325,
+          "avg_seen": 751.80125,
+          "avg_visited": 1.484
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1423674289835617,
+          "speedup": 33.37985721130219,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 740.55325,
+          "avg_visited": 1.4985
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13311524991877377,
+          "speedup": 35.3555616195072,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.575,
+          "avg_seen": 736.92975,
+          "avg_visited": 1.504
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13183184748049825,
+          "speedup": 35.87571218092888,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 727.1515,
+          "avg_visited": 1.51725
+        }
+      },
+      "rank": [
+        0.04066541175077968,
+        0.043581319800348836,
+        34.78311625,
+        -34.27166131711488,
+        -32.475514256721254,
+        128,
+        -99.423125
+      ]
+    },
+    "pair_avg": 33.50822395678236,
+    "avg_gap": 1.5268747206650417
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 3,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 27.21981417066414,
+      "avg_speed": 28.197665124947626,
+      "max_speed": 29.210709590640473,
+      "min_match": 99.575,
+      "avg_match": 99.703125,
+      "speed_cv": 0.026126113347293693,
+      "time_cv": 0.028692059020548853,
+      "speed_spread": 1.0731414038131826,
+      "avg_seen": 1037.2488125,
+      "avg_visited": 1.5063125000000002,
+      "overhead": 53.50128875,
+      "candidate_index": 677,
+      "iter_block": "A_core_fast",
+      "block_index": 37,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.17016894556581974,
+          "speedup": 27.873629508088644,
+          "decision_match": 99.575,
+          "timing_decision_match": 99.575,
+          "avg_seen": 1064.8625,
+          "avg_visited": 1.5015
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1745862194802612,
+          "speedup": 27.21981417066414,
+          "decision_match": 99.675,
+          "timing_decision_match": 99.575,
+          "avg_seen": 1030.6225,
+          "avg_visited": 1.495
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.16521381097845733,
+          "speedup": 28.486507230397237,
+          "decision_match": 99.74499999999999,
+          "timing_decision_match": 99.8,
+          "avg_seen": 1030.78075,
+          "avg_visited": 1.5075
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.16191189747769386,
+          "speedup": 29.210709590640473,
+          "decision_match": 99.81750000000001,
+          "timing_decision_match": 99.95,
+          "avg_seen": 1022.7295,
+          "avg_visited": 1.52125
+        }
+      },
+      "rank": [
+        0.026126113347293693,
+        0.028692059020548853,
+        53.50128875,
+        -28.197665124947626,
+        -27.21981417066414,
+        128,
+        -99.703125
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 33.48827287228373,
+    "avg_gap": 10.581215494672215
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.78598608425461,
+      "avg_speed": 33.09124047412177,
+      "max_speed": 34.75310198990946,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.03219549277017838,
+      "time_cv": 0.032683048955296855,
+      "speed_spread": 1.093346668490635,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14922381611540914,
+          "speedup": 31.78598608425461,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14406022592447698,
+          "speedup": 32.98762320074952,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.1433195840800181,
+          "speedup": 32.83825062157348,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13609033857937902,
+          "speedup": 34.75310198990946,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.03219549277017838,
+        0.032683048955296855,
+        29.59780125,
+        -33.09124047412177,
+        -31.78598608425461,
+        128,
+        -99.4975
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.57596806546627,
+      "avg_speed": 33.847371626315585,
+      "max_speed": 35.25087371689083,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.036021567953135936,
+      "time_cv": 0.038965407809613425,
+      "speed_spread": 1.0821128522120644,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14560507098212838,
+          "speedup": 32.57596806546627,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14534029748756438,
+          "speedup": 32.697087684288675,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.134986067074351,
+          "speedup": 34.86555703861657,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13416862953454256,
+          "speedup": 35.25087371689083,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.036021567953135936,
+        0.038965407809613425,
+        29.59780125,
+        -33.847371626315585,
+        -32.57596806546627,
+        128,
+        -99.4975
+      ]
+    },
+    "pair_avg": 33.46930605021868,
+    "avg_gap": 0.7561311521938165
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.660005562413385,
+      "avg_speed": 32.744786596449835,
+      "max_speed": 33.84840494829628,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46062500000001,
+      "speed_cv": 0.02800989278337565,
+      "time_cv": 0.030809507171059593,
+      "speed_spread": 1.069121888862867,
+      "avg_seen": 767.18375,
+      "avg_visited": 1.487875,
+      "overhead": 31.33155,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14981760294176638,
+          "speedup": 31.660005562413385,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 777.81925,
+          "avg_visited": 1.478
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14832579053472728,
+          "speedup": 32.038962569350794,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 772.54825,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.14077519543934613,
+          "speedup": 33.431773305738886,
+          "decision_match": 99.48,
+          "timing_decision_match": 99.65,
+          "avg_seen": 761.052,
+          "avg_visited": 1.4895
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1397277485812083,
+          "speedup": 33.84840494829628,
+          "decision_match": 99.6125,
+          "timing_decision_match": 99.675,
+          "avg_seen": 757.3155,
+          "avg_visited": 1.5035
+        }
+      },
+      "rank": [
+        0.02800989278337565,
+        0.030809507171059593,
+        31.33155,
+        -32.744786596449835,
+        -31.660005562413385,
+        128,
+        -99.46062500000001
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.57596806546627,
+      "avg_speed": 33.847371626315585,
+      "max_speed": 35.25087371689083,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.036021567953135936,
+      "time_cv": 0.038965407809613425,
+      "speed_spread": 1.0821128522120644,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14560507098212838,
+          "speedup": 32.57596806546627,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14534029748756438,
+          "speedup": 32.697087684288675,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.134986067074351,
+          "speedup": 34.86555703861657,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13416862953454256,
+          "speedup": 35.25087371689083,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.036021567953135936,
+        0.038965407809613425,
+        29.59780125,
+        -33.847371626315585,
+        -32.57596806546627,
+        128,
+        -99.4975
+      ]
+    },
+    "pair_avg": 33.29607911138271,
+    "avg_gap": 1.1025850298657502
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 3,
+      "degree": 24,
+      "entries": 2,
+      "ef": 2,
+      "min_speed": 26.577313235383528,
+      "avg_speed": 28.769602142459192,
+      "max_speed": 30.37246440593686,
+      "min_match": 99.3125,
+      "avg_match": 99.48375,
+      "speed_cv": 0.053498704660475106,
+      "time_cv": 0.057640739282524625,
+      "speed_spread": 1.142796645279429,
+      "avg_seen": 1014.93325,
+      "avg_visited": 1.5099375000000002,
+      "overhead": 55.0586025,
+      "candidate_index": 679,
+      "iter_block": "A_core_fast",
+      "block_index": 39,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.16890148143284023,
+          "speedup": 28.082797748401028,
+          "decision_match": 99.425,
+          "timing_decision_match": 99.425,
+          "avg_seen": 1040.837,
+          "avg_visited": 1.5035
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.17880680446978658,
+          "speedup": 26.577313235383528,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.2,
+          "avg_seen": 994.22025,
+          "avg_visited": 1.49975
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.15663950447924435,
+          "speedup": 30.045833180115352,
+          "decision_match": 99.55000000000001,
+          "timing_decision_match": 99.675,
+          "avg_seen": 1015.8495,
+          "avg_visited": 1.5095
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.15571872447617352,
+          "speedup": 30.37246440593686,
+          "decision_match": 99.6475,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 1008.82625,
+          "avg_visited": 1.527
+        }
+      },
+      "rank": [
+        0.053498704660475106,
+        0.057640739282524625,
+        55.0586025,
+        -28.769602142459192,
+        -26.577313235383528,
+        128,
+        -99.48375
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 33.13920999290458,
+    "avg_gap": 8.739215700890789
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 6,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.78598608425461,
+      "avg_speed": 33.09124047412177,
+      "max_speed": 34.75310198990946,
+      "min_match": 99.4,
+      "avg_match": 99.4975,
+      "speed_cv": 0.03219549277017838,
+      "time_cv": 0.032683048955296855,
+      "speed_spread": 1.093346668490635,
+      "avg_seen": 780.5713125,
+      "avg_visited": 1.4863749999999998,
+      "overhead": 29.59780125,
+      "candidate_index": 641,
+      "iter_block": "A_core_fast",
+      "block_index": 1,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14922381611540914,
+          "speedup": 31.78598608425461,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 793.429,
+          "avg_visited": 1.477
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14406022592447698,
+          "speedup": 32.98762320074952,
+          "decision_match": 99.4375,
+          "timing_decision_match": 99.325,
+          "avg_seen": 780.8635,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.1433195840800181,
+          "speedup": 32.83825062157348,
+          "decision_match": 99.515,
+          "timing_decision_match": 99.675,
+          "avg_seen": 779.20375,
+          "avg_visited": 1.49175
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13609033857937902,
+          "speedup": 34.75310198990946,
+          "decision_match": 99.6375,
+          "timing_decision_match": 99.7,
+          "avg_seen": 768.789,
+          "avg_visited": 1.50175
+        }
+      },
+      "rank": [
+        0.03219549277017838,
+        0.032683048955296855,
+        29.59780125,
+        -33.09124047412177,
+        -31.78598608425461,
+        128,
+        -99.4975
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.18717490112878,
+      "avg_speed": 33.09691511240435,
+      "max_speed": 34.111548312727095,
+      "min_match": 99.375,
+      "avg_match": 99.46875,
+      "speed_cv": 0.027344835972111292,
+      "time_cv": 0.030630248119358185,
+      "speed_spread": 1.05978696227642,
+      "avg_seen": 765.6658749999999,
+      "avg_visited": 1.4835625000000001,
+      "overhead": 31.296879999999998,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14736385399010032,
+          "speedup": 32.18717490112878,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 781.805,
+          "avg_visited": 1.4735
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14756692689843476,
+          "speedup": 32.20372308953938,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 771.82325,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13796982704661787,
+          "speedup": 34.111548312727095,
+          "decision_match": 99.485,
+          "timing_decision_match": 99.65,
+          "avg_seen": 759.72575,
+          "avg_visited": 1.488
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13957596360705793,
+          "speedup": 33.88521414622216,
+          "decision_match": 99.615,
+          "timing_decision_match": 99.675,
+          "avg_seen": 749.3095,
+          "avg_visited": 1.49775
+        }
+      },
+      "rank": [
+        0.027344835972111292,
+        0.030630248119358185,
+        31.296879999999998,
+        -33.09691511240435,
+        -32.18717490112878,
+        128,
+        -99.46875
+      ]
+    },
+    "pair_avg": 33.09407779326306,
+    "avg_gap": 0.005674638282584965
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 31.660005562413385,
+      "avg_speed": 32.744786596449835,
+      "max_speed": 33.84840494829628,
+      "min_match": 99.35000000000001,
+      "avg_match": 99.46062500000001,
+      "speed_cv": 0.02800989278337565,
+      "time_cv": 0.030809507171059593,
+      "speed_spread": 1.069121888862867,
+      "avg_seen": 767.18375,
+      "avg_visited": 1.487875,
+      "overhead": 31.33155,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14981760294176638,
+          "speedup": 31.660005562413385,
+          "decision_match": 99.35000000000001,
+          "timing_decision_match": 99.35000000000001,
+          "avg_seen": 777.81925,
+          "avg_visited": 1.478
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14832579053472728,
+          "speedup": 32.038962569350794,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 772.54825,
+          "avg_visited": 1.4805
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.14077519543934613,
+          "speedup": 33.431773305738886,
+          "decision_match": 99.48,
+          "timing_decision_match": 99.65,
+          "avg_seen": 761.052,
+          "avg_visited": 1.4895
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1397277485812083,
+          "speedup": 33.84840494829628,
+          "decision_match": 99.6125,
+          "timing_decision_match": 99.675,
+          "avg_seen": 757.3155,
+          "avg_visited": 1.5035
+        }
+      },
+      "rank": [
+        0.02800989278337565,
+        0.030809507171059593,
+        31.33155,
+        -32.744786596449835,
+        -31.660005562413385,
+        128,
+        -99.46062500000001
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 8,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 32.18717490112878,
+      "avg_speed": 33.09691511240435,
+      "max_speed": 34.111548312727095,
+      "min_match": 99.375,
+      "avg_match": 99.46875,
+      "speed_cv": 0.027344835972111292,
+      "time_cv": 0.030630248119358185,
+      "speed_spread": 1.05978696227642,
+      "avg_seen": 765.6658749999999,
+      "avg_visited": 1.4835625000000001,
+      "overhead": 31.296879999999998,
+      "candidate_index": 645,
+      "iter_block": "A_core_fast",
+      "block_index": 5,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.14736385399010032,
+          "speedup": 32.18717490112878,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 781.805,
+          "avg_visited": 1.4735
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.14756692689843476,
+          "speedup": 32.20372308953938,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.3,
+          "avg_seen": 771.82325,
+          "avg_visited": 1.475
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.13796982704661787,
+          "speedup": 34.111548312727095,
+          "decision_match": 99.485,
+          "timing_decision_match": 99.65,
+          "avg_seen": 759.72575,
+          "avg_visited": 1.488
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.13957596360705793,
+          "speedup": 33.88521414622216,
+          "decision_match": 99.615,
+          "timing_decision_match": 99.675,
+          "avg_seen": 749.3095,
+          "avg_visited": 1.49775
+        }
+      },
+      "rank": [
+        0.027344835972111292,
+        0.030630248119358185,
+        31.296879999999998,
+        -33.09691511240435,
+        -32.18717490112878,
+        128,
+        -99.46875
+      ]
+    },
+    "pair_avg": 32.920850854427094,
+    "avg_gap": 0.35212851595451866
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 3,
+      "degree": 16,
+      "entries": 2,
+      "ef": 2,
+      "min_speed": 24.615379115321495,
+      "avg_speed": 26.93169322990876,
+      "max_speed": 28.688413032729887,
+      "min_match": 99.5375,
+      "avg_match": 99.646875,
+      "speed_cv": 0.06251194669104683,
+      "time_cv": 0.06675403523521913,
+      "speed_spread": 1.165467039866682,
+      "avg_seen": 1027.663,
+      "avg_visited": 1.5099375000000002,
+      "overhead": 47.3131975,
+      "candidate_index": 675,
+      "iter_block": "A_core_fast",
+      "block_index": 35,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.18212862696964294,
+          "speedup": 26.043276235066333,
+          "decision_match": 99.6,
+          "timing_decision_match": 99.6,
+          "avg_seen": 1054.27,
+          "avg_visited": 1.5035
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.19305834895931184,
+          "speedup": 24.615379115321495,
+          "decision_match": 99.5375,
+          "timing_decision_match": 99.4,
+          "avg_seen": 1029.409,
+          "avg_visited": 1.49975
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.16583556798286736,
+          "speedup": 28.37970453651732,
+          "decision_match": 99.685,
+          "timing_decision_match": 99.75,
+          "avg_seen": 1017.95325,
+          "avg_visited": 1.5095
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.16485963901504874,
+          "speedup": 28.688413032729887,
+          "decision_match": 99.765,
+          "timing_decision_match": 99.65,
+          "avg_seen": 1009.01975,
+          "avg_visited": 1.527
+        }
+      },
+      "rank": [
+        0.06251194669104683,
+        0.06675403523521913,
+        47.3131975,
+        -26.93169322990876,
+        -24.615379115321495,
+        128,
+        -99.646875
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 32.8552869247643,
+    "avg_gap": 11.847187389711081
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 3,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 27.21981417066414,
+      "avg_speed": 28.197665124947626,
+      "max_speed": 29.210709590640473,
+      "min_match": 99.575,
+      "avg_match": 99.703125,
+      "speed_cv": 0.026126113347293693,
+      "time_cv": 0.028692059020548853,
+      "speed_spread": 1.0731414038131826,
+      "avg_seen": 1037.2488125,
+      "avg_visited": 1.5063125000000002,
+      "overhead": 53.50128875,
+      "candidate_index": 677,
+      "iter_block": "A_core_fast",
+      "block_index": 37,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.17016894556581974,
+          "speedup": 27.873629508088644,
+          "decision_match": 99.575,
+          "timing_decision_match": 99.575,
+          "avg_seen": 1064.8625,
+          "avg_visited": 1.5015
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1745862194802612,
+          "speedup": 27.21981417066414,
+          "decision_match": 99.675,
+          "timing_decision_match": 99.575,
+          "avg_seen": 1030.6225,
+          "avg_visited": 1.495
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.16521381097845733,
+          "speedup": 28.486507230397237,
+          "decision_match": 99.74499999999999,
+          "timing_decision_match": 99.8,
+          "avg_seen": 1030.78075,
+          "avg_visited": 1.5075
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.16191189747769386,
+          "speedup": 29.210709590640473,
+          "decision_match": 99.81750000000001,
+          "timing_decision_match": 99.95,
+          "avg_seen": 1022.7295,
+          "avg_visited": 1.52125
+        }
+      },
+      "rank": [
+        0.026126113347293693,
+        0.028692059020548853,
+        53.50128875,
+        -28.197665124947626,
+        -27.21981417066414,
+        128,
+        -99.703125
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 35.888189112107675,
+      "avg_speed": 37.50881784334998,
+      "max_speed": 38.80054095005068,
+      "min_match": 99.375,
+      "avg_match": 99.43062499999999,
+      "speed_cv": 0.03497477677348263,
+      "time_cv": 0.03810502333790679,
+      "speed_spread": 1.081150704730333,
+      "avg_seen": 688.6179374999999,
+      "avg_visited": 1.431,
+      "overhead": 37.70335874999999,
+      "candidate_index": 653,
+      "iter_block": "A_core_fast",
+      "block_index": 13,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.13216677296441048,
+          "speedup": 35.888189112107675,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 709.167,
+          "avg_visited": 1.422
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.1300282769370824,
+          "speedup": 36.54746923479554,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.275,
+          "avg_seen": 700.41575,
+          "avg_visited": 1.4385
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.12129636097233742,
+          "speedup": 38.80054095005068,
+          "decision_match": 99.395,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 678.7675,
+          "avg_visited": 1.4335
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.12189882807433605,
+          "speedup": 38.799072076446045,
+          "decision_match": 99.5775,
+          "timing_decision_match": 99.65,
+          "avg_seen": 666.1215,
+          "avg_visited": 1.43
+        }
+      },
+      "rank": [
+        0.03497477677348263,
+        0.03810502333790679,
+        37.70335874999999,
+        -37.50881784334998,
+        -35.888189112107675,
+        128,
+        -99.43062499999999
+      ]
+    },
+    "pair_avg": 32.8532414841488,
+    "avg_gap": 9.311152718402354
+  },
+  {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 128,
+      "overlap": 3,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 24.715546345643684,
+      "avg_speed": 25.799602471673538,
+      "max_speed": 26.976720488858433,
+      "min_match": 99.575,
+      "avg_match": 99.72625000000001,
+      "speed_cv": 0.034920383432586896,
+      "time_cv": 0.037401121057111256,
+      "speed_spread": 1.0914879287551456,
+      "avg_seen": 1031.479375,
+      "avg_visited": 1.4913125,
+      "overhead": 41.3709,
+      "candidate_index": 669,
+      "iter_block": "A_core_fast",
+      "block_index": 29,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.19191265595145524,
+          "speedup": 24.715546345643684,
+          "decision_match": 99.575,
+          "timing_decision_match": 99.575,
+          "avg_seen": 1046.2865,
+          "avg_visited": 1.49225
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.18880962650291622,
+          "speedup": 25.169291095113177,
+          "decision_match": 99.725,
+          "timing_decision_match": 99.625,
+          "avg_seen": 1041.0305,
+          "avg_visited": 1.47675
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.17869882204104215,
+          "speedup": 26.336851957078856,
+          "decision_match": 99.78,
+          "timing_decision_match": 99.85000000000001,
+          "avg_seen": 1023.9815,
+          "avg_visited": 1.49125
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.17532010306604207,
+          "speedup": 26.976720488858433,
+          "decision_match": 99.825,
+          "timing_decision_match": 99.97500000000001,
+          "avg_seen": 1014.619,
+          "avg_visited": 1.505
+        }
+      },
+      "rank": [
+        0.034920383432586896,
+        0.037401121057111256,
+        41.3709,
+        -25.799602471673538,
+        -24.715546345643684,
+        128,
+        -99.72625000000001
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 2,
+      "degree": 24,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 37.35595110488257,
+      "avg_speed": 38.77888061961984,
+      "max_speed": 40.134872774839664,
+      "min_match": 99.3125,
+      "avg_match": 99.41875,
+      "speed_cv": 0.03173422139387783,
+      "time_cv": 0.03489077241200471,
+      "speed_spread": 1.0743903337424028,
+      "avg_seen": 662.6554375000001,
+      "avg_visited": 1.41425,
+      "overhead": 45.167358750000005,
+      "candidate_index": 657,
+      "iter_block": "A_core_fast",
+      "block_index": 17,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/amazon/amazon_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 4.743226142483763,
+          "graph_ms": 0.12559697043616325,
+          "speedup": 37.76545028125967,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.4,
+          "avg_seen": 675.832,
+          "avg_visited": 1.413
+        },
+        "200": {
+          "direct_ms": 4.752204451011494,
+          "graph_ms": 0.12721412011887878,
+          "speedup": 37.35595110488257,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.175,
+          "avg_seen": 669.023,
+          "avg_visited": 1.4115
+        },
+        "500": {
+          "direct_ms": 4.706364420999307,
+          "graph_ms": 0.11807459045667201,
+          "speedup": 39.859248317497475,
+          "decision_match": 99.4,
+          "timing_decision_match": 99.55000000000001,
+          "avg_seen": 662.3715,
+          "avg_visited": 1.41775
+        },
+        "1000": {
+          "direct_ms": 4.729561416490469,
+          "graph_ms": 0.1178416945040226,
+          "speedup": 40.134872774839664,
+          "decision_match": 99.5625,
+          "timing_decision_match": 99.65,
+          "avg_seen": 643.39525,
+          "avg_visited": 1.41475
+        }
+      },
+      "rank": [
+        0.03173422139387783,
+        0.03489077241200471,
+        45.167358750000005,
+        -38.77888061961984,
+        -37.35595110488257,
+        128,
+        -99.41875
+      ]
+    },
+    "pair_avg": 32.28924154564669,
+    "avg_gap": 12.979278147946303
+  }
+]

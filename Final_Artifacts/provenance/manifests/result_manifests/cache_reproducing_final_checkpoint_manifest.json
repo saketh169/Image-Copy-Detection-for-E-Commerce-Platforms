@@ -1,0 +1,24 @@
+{
+  "updated_at": "20260726_151233",
+  "reason": "Final named checkpoint targets were updated to the checkpoint files that reproduce the cached q-validation/store embeddings.",
+  "remote_manifest": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cache_reproducing_final_checkpoint_manifest.json",
+  "remote_backup_dir": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/_backup_before_cache_source_update_20260726_151233",
+  "datasets": {
+    "cifar": {
+      "source": "/home/saketh/Codebase/checkpoints/generalized_gap_guard_diagonal_search_20260717/cifar/cifar-generalized-gap-accepted-003.pt",
+      "final_target": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/cifar/cifar-epoch-019-diagonal.pt"
+    },
+    "ucid": {
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/ucid/ucid-fresh-bank-metric-layer-best.pt",
+      "final_target": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/ucid/ucid-epoch-040-diagonal.pt"
+    },
+    "flickr": {
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/flickr/flickr-fresh-bank-metric-layer-best.pt",
+      "final_target": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/flickr/flickr-epoch-028-diagonal.pt"
+    },
+    "amazon": {
+      "source": "/home/saketh/Codebase/checkpoints/fresh_bank_metric_layer_search_20attacks_20260715/amazon/amazon-fresh-bank-metric-layer-best.pt",
+      "final_target": "/home/saketh/Codebase/checkpoints/final_named_checkpoints_20260601/amazon/amazon-epoch-037-diagonal.pt"
+    }
+  }
+}

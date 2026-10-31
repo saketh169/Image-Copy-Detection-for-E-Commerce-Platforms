@@ -1,0 +1,594 @@
+{
+  "UCID": {
+    "hnsw": {
+      "dataset": "UCID",
+      "method": "HNSW",
+      "C": 192,
+      "overlap": 4,
+      "degree": 24,
+      "entries": 1,
+      "ef": 4,
+      "min_speed": 11.360176965599905,
+      "avg_speed": 11.437912854385086,
+      "max_speed": 11.540789855705981,
+      "min_match": 99.2875,
+      "avg_match": 99.34437499999999,
+      "speed_cv": 0.006496916539031891,
+      "time_cv": 0.03200176411619748,
+      "speed_spread": 1.015898774345945,
+      "avg_seen": 137.8680625,
+      "avg_visited": 1.895375,
+      "overhead": 39.652736250000004,
+      "candidate_index": 2438,
+      "iter_block": "E1_edge_fast",
+      "block_index": 38,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/ucid/ucid_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 0.4272824224899523,
+          "graph_ms": 0.03702367236837745,
+          "speedup": 11.540789855705981,
+          "decision_match": 99.3,
+          "timing_decision_match": 99.3,
+          "avg_seen": 136.121,
+          "avg_visited": 1.891
+        },
+        "200": {
+          "direct_ms": 0.39857840951299295,
+          "graph_ms": 0.03504103852901608,
+          "speedup": 11.374617484095003,
+          "decision_match": 99.2875,
+          "timing_decision_match": 98.97500000000001,
+          "avg_seen": 136.49975,
+          "avg_visited": 1.8845
+        },
+        "400": {
+          "direct_ms": 0.4307998709846288,
+          "graph_ms": 0.0379219331080094,
+          "speedup": 11.360176965599905,
+          "decision_match": 99.375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 137.3515,
+          "avg_visited": 1.8915
+        },
+        "500": {
+          "direct_ms": 0.40702431194949895,
+          "graph_ms": 0.03546723001636565,
+          "speedup": 11.47606711213945,
+          "decision_match": 99.41499999999999,
+          "timing_decision_match": 99.5,
+          "avg_seen": 141.5,
+          "avg_visited": 1.9145
+        }
+      },
+      "rank": [
+        0.006496916539031891,
+        0.03200176411619748,
+        39.652736250000004,
+        -11.437912854385086,
+        -11.360176965599905,
+        192,
+        -99.34437499999999
+      ]
+    },
+    "erng": {
+      "dataset": "UCID",
+      "method": "ERNG",
+      "C": 128,
+      "overlap": 3,
+      "degree": 6,
+      "entries": 1,
+      "ef": 4,
+      "min_speed": 14.173054479167803,
+      "avg_speed": 14.32184549004366,
+      "max_speed": 14.466786582454633,
+      "min_match": 99.075,
+      "avg_match": 99.18,
+      "speed_cv": 0.0076898831989758755,
+      "time_cv": 0.033775290479233645,
+      "speed_spread": 1.0207246859679098,
+      "avg_seen": 140.825,
+      "avg_visited": 1.89725,
+      "overhead": 20.96375,
+      "candidate_index": 1942,
+      "iter_block": "A_core_fast",
+      "block_index": 22,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/ucid/ucid_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 0.4272824224899523,
+          "graph_ms": 0.029535406501963735,
+          "speedup": 14.466786582454633,
+          "decision_match": 99.075,
+          "timing_decision_match": 99.075,
+          "avg_seen": 138.472,
+          "avg_visited": 1.8885
+        },
+        "200": {
+          "direct_ms": 0.39857840951299295,
+          "graph_ms": 0.027927326620556414,
+          "speedup": 14.271985819781694,
+          "decision_match": 99.1125,
+          "timing_decision_match": 98.95,
+          "avg_seen": 139.16625,
+          "avg_visited": 1.88675
+        },
+        "400": {
+          "direct_ms": 0.4307998709846288,
+          "graph_ms": 0.03039569710381329,
+          "speedup": 14.173054479167803,
+          "decision_match": 99.2375,
+          "timing_decision_match": 99.125,
+          "avg_seen": 141.17375,
+          "avg_visited": 1.89625
+        },
+        "500": {
+          "direct_ms": 0.40702431194949895,
+          "graph_ms": 0.02831364143639803,
+          "speedup": 14.375555078770514,
+          "decision_match": 99.295,
+          "timing_decision_match": 99.275,
+          "avg_seen": 144.488,
+          "avg_visited": 1.9175
+        }
+      },
+      "rank": [
+        0.0076898831989758755,
+        0.033775290479233645,
+        20.96375,
+        -14.32184549004366,
+        -14.173054479167803,
+        128,
+        -99.18
+      ]
+    },
+    "erng_gap": 2.8839326356585744,
+    "avg_centroid": 160.0
+  },
+  "FLICKR": {
+    "hnsw": {
+      "dataset": "FLICKR",
+      "method": "HNSW",
+      "C": 256,
+      "overlap": 4,
+      "degree": 16,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 18.52030614413452,
+      "avg_speed": 19.112386473373608,
+      "max_speed": 19.442203684715466,
+      "min_match": 99.75,
+      "avg_match": 99.81812500000001,
+      "speed_cv": 0.01839964129121428,
+      "time_cv": 0.0383278728056366,
+      "speed_spread": 1.0497776620648853,
+      "avg_seen": 214.909375,
+      "avg_visited": 1.479375,
+      "overhead": 29.777562500000002,
+      "candidate_index": 2113,
+      "iter_block": "E1_edge_fast",
+      "block_index": 33,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/flickr/flickr_hnsw_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 0.8979950659559108,
+          "graph_ms": 0.04848705301992595,
+          "speedup": 18.52030614413452,
+          "decision_match": 99.75,
+          "timing_decision_match": 99.75,
+          "avg_seen": 228.259,
+          "avg_visited": 1.48375
+        },
+        "200": {
+          "direct_ms": 0.8663309909170493,
+          "graph_ms": 0.045069938991218805,
+          "speedup": 19.221925085939006,
+          "decision_match": 99.8,
+          "timing_decision_match": 99.825,
+          "avg_seen": 216.73525,
+          "avg_visited": 1.48925
+        },
+        "500": {
+          "direct_ms": 0.9197669199784286,
+          "graph_ms": 0.04730775044299662,
+          "speedup": 19.442203684715466,
+          "decision_match": 99.855,
+          "timing_decision_match": 99.875,
+          "avg_seen": 203.6275,
+          "avg_visited": 1.469
+        },
+        "1000": {
+          "direct_ms": 0.8477608324610628,
+          "graph_ms": 0.044004980474710464,
+          "speedup": 19.265110978705433,
+          "decision_match": 99.86749999999999,
+          "timing_decision_match": 99.9,
+          "avg_seen": 211.01575,
+          "avg_visited": 1.4755
+        }
+      },
+      "rank": [
+        0.01839964129121428,
+        0.0383278728056366,
+        29.777562500000002,
+        -19.112386473373608,
+        -18.52030614413452,
+        256,
+        -99.81812500000001
+      ]
+    },
+    "erng": {
+      "dataset": "FLICKR",
+      "method": "ERNG",
+      "C": 256,
+      "overlap": 3,
+      "degree": 12,
+      "entries": 1,
+      "ef": 2,
+      "min_speed": 20.42773886270285,
+      "avg_speed": 21.157360074059223,
+      "max_speed": 21.52633691223908,
+      "min_match": 99.45,
+      "avg_match": 99.56375,
+      "speed_cv": 0.02033305716344653,
+      "time_cv": 0.042047220354018165,
+      "speed_spread": 1.053779718691336,
+      "avg_seen": 174.0928125,
+      "avg_visited": 1.47975,
+      "overhead": 24.21160625,
+      "candidate_index": 1949,
+      "iter_block": "A_core_fast",
+      "block_index": 29,
+      "source_name": "interleaved",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_interleaved_onepid_directfixed_20260723/flickr/flickr_erng_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 0.8979950659559108,
+          "graph_ms": 0.04395959200337529,
+          "speedup": 20.42773886270285,
+          "decision_match": 99.45,
+          "timing_decision_match": 99.45,
+          "avg_seen": 186.40725,
+          "avg_visited": 1.48425
+        },
+        "200": {
+          "direct_ms": 0.8663309909170493,
+          "graph_ms": 0.040245165466330945,
+          "speedup": 21.52633691223908,
+          "decision_match": 99.5,
+          "timing_decision_match": 99.425,
+          "avg_seen": 171.843,
+          "avg_visited": 1.4895
+        },
+        "500": {
+          "direct_ms": 0.9197669199784286,
+          "graph_ms": 0.04298830055631697,
+          "speedup": 21.395749729010216,
+          "decision_match": 99.645,
+          "timing_decision_match": 99.6,
+          "avg_seen": 166.83975,
+          "avg_visited": 1.47
+        },
+        "1000": {
+          "direct_ms": 0.8477608324610628,
+          "graph_ms": 0.039839106146246195,
+          "speedup": 21.27961479228475,
+          "decision_match": 99.66000000000001,
+          "timing_decision_match": 99.825,
+          "avg_seen": 171.28125,
+          "avg_visited": 1.47525
+        }
+      },
+      "rank": [
+        0.02033305716344653,
+        0.042047220354018165,
+        24.21160625,
+        -21.157360074059223,
+        -20.42773886270285,
+        256,
+        -99.56375
+      ]
+    },
+    "erng_gap": 2.0449736006856156,
+    "avg_centroid": 256.0
+  },
+  "CIFAR": {
+    "hnsw": {
+      "dataset": "CIFAR",
+      "method": "HNSW",
+      "C": 1024,
+      "overlap": 3,
+      "degree": 12,
+      "entries": 2,
+      "ef": 16,
+      "min_speed": 23.71911779836903,
+      "avg_speed": 24.916160423574556,
+      "max_speed": 26.271571076007582,
+      "min_match": 99.58500000000001,
+      "avg_match": 99.65875,
+      "speed_cv": 0.043606825686133686,
+      "time_cv": 0.12070760581420727,
+      "speed_spread": 1.1076116447220505,
+      "avg_seen": 258.9701875,
+      "avg_visited": 8.476875000000001,
+      "overhead": 55.90627875,
+      "candidate_index": 3272,
+      "iter_block": "B_recall_safe",
+      "block_index": 32,
+      "source_name": "method_chunks",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_method_centroid_chunks_ge99_20260724/cifar/cifar_hnsw_hnsw_c2_1024_1536_qualified_minmatch_ge99.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 2.903861169004813,
+          "graph_ms": 0.11053245200309902,
+          "speedup": 26.271571076007582,
+          "decision_match": 99.7,
+          "timing_decision_match": 99.7,
+          "avg_seen": 252.30025,
+          "avg_visited": 8.36625
+        },
+        "200": {
+          "direct_ms": 2.9843113790266216,
+          "graph_ms": 0.12581881857477129,
+          "speedup": 23.71911779836903,
+          "decision_match": 99.7,
+          "timing_decision_match": 99.65,
+          "avg_seen": 259.39,
+          "avg_visited": 8.53175
+        },
+        "500": {
+          "direct_ms": 3.7048955663340166,
+          "graph_ms": 0.15444397553801537,
+          "speedup": 23.98860527532899,
+          "decision_match": 99.58500000000001,
+          "timing_decision_match": 99.47500000000001,
+          "avg_seen": 264.321,
+          "avg_visited": 8.50975
+        },
+        "1000": {
+          "direct_ms": 3.405519056948833,
+          "graph_ms": 0.13258606102317572,
+          "speedup": 25.685347544592616,
+          "decision_match": 99.65,
+          "timing_decision_match": 99.675,
+          "avg_seen": 259.8695,
+          "avg_visited": 8.49975
+        }
+      },
+      "rank": [
+        0.043606825686133686,
+        0.12070760581420727,
+        55.90627875,
+        -24.916160423574556,
+        -23.71911779836903,
+        1024,
+        -99.65875
+      ]
+    },
+    "erng": {
+      "dataset": "CIFAR",
+      "method": "ERNG",
+      "C": 384,
+      "overlap": 4,
+      "degree": 24,
+      "entries": 2,
+      "ef": 8,
+      "min_speed": 26.223730653673034,
+      "avg_speed": 28.417319475919673,
+      "max_speed": 31.882826044879305,
+      "min_match": 99.05000000000001,
+      "avg_match": 99.125,
+      "speed_cv": 0.07580349672925449,
+      "time_cv": 0.29020011303953547,
+      "speed_spread": 1.2158005459232257,
+      "avg_seen": 502.72325,
+      "avg_visited": 4.514687500000001,
+      "overhead": 57.5691525,
+      "candidate_index": 2479,
+      "iter_block": "E2_edge_recall",
+      "block_index": 39,
+      "source_name": "method_chunks",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_method_centroid_chunks_ge99_20260724/cifar/cifar_erng_erng_c1_384_512_768_qualified_minmatch_ge99.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 2.2497126820962876,
+          "graph_ms": 0.08301767951343209,
+          "speedup": 27.099199776263184,
+          "decision_match": 99.05000000000001,
+          "timing_decision_match": 99.05000000000001,
+          "avg_seen": 494.22975,
+          "avg_visited": 4.44725
+        },
+        "200": {
+          "direct_ms": 3.7170279775746167,
+          "graph_ms": 0.13058918190654367,
+          "speedup": 28.46352142886317,
+          "decision_match": 99.0625,
+          "timing_decision_match": 99.075,
+          "avg_seen": 496.6245,
+          "avg_visited": 4.565
+        },
+        "500": {
+          "direct_ms": 2.6860844624461606,
+          "graph_ms": 0.08424863149411976,
+          "speedup": 31.882826044879305,
+          "decision_match": 99.125,
+          "timing_decision_match": 99.05000000000001,
+          "avg_seen": 514.78175,
+          "avg_visited": 4.52225
+        },
+        "1000": {
+          "direct_ms": 4.2593259763671085,
+          "graph_ms": 0.16242257948033512,
+          "speedup": 26.223730653673034,
+          "decision_match": 99.2625,
+          "timing_decision_match": 99.325,
+          "avg_seen": 505.257,
+          "avg_visited": 4.52425
+        }
+      },
+      "rank": [
+        0.07580349672925449,
+        0.29020011303953547,
+        57.5691525,
+        -28.417319475919673,
+        -26.223730653673034,
+        384,
+        -99.125
+      ]
+    },
+    "erng_gap": 3.501159052345116,
+    "avg_centroid": 704.0
+  },
+  "AMAZON": {
+    "hnsw": {
+      "dataset": "AMAZON",
+      "method": "HNSW",
+      "C": 768,
+      "overlap": 4,
+      "degree": 12,
+      "entries": 1,
+      "ef": 8,
+      "min_speed": 23.631070753510926,
+      "avg_speed": 29.132131078614783,
+      "max_speed": 36.15122202970301,
+      "min_match": 99.5375,
+      "avg_match": 99.625625,
+      "speed_cv": 0.15425976857474982,
+      "time_cv": 0.38849064827525376,
+      "speed_spread": 1.529817349657418,
+      "avg_seen": 658.8240625,
+      "avg_visited": 4.480874999999999,
+      "overhead": 46.65735625,
+      "candidate_index": 2469,
+      "iter_block": "E2_edge_recall",
+      "block_index": 29,
+      "source_name": "group_resume",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_centroid_group_resume_20260724/amazon/amazon_hnsw_centroid_group_g1_qualified_minmatch_ge95.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 9.451641149469651,
+          "graph_ms": 0.26144734863191843,
+          "speedup": 36.15122202970301,
+          "decision_match": 99.65,
+          "timing_decision_match": 99.65,
+          "avg_seen": 656.81325,
+          "avg_visited": 4.38225
+        },
+        "200": {
+          "direct_ms": 7.72368934599217,
+          "graph_ms": 0.32684466254431754,
+          "speedup": 23.631070753510926,
+          "decision_match": 99.5375,
+          "timing_decision_match": 99.375,
+          "avg_seen": 647.606,
+          "avg_visited": 4.40975
+        },
+        "500": {
+          "direct_ms": 6.0188935570186,
+          "graph_ms": 0.21381542552262545,
+          "speedup": 28.149950090395585,
+          "decision_match": 99.605,
+          "timing_decision_match": 99.575,
+          "avg_seen": 671.29825,
+          "avg_visited": 4.52625
+        },
+        "1000": {
+          "direct_ms": 2.574234898434952,
+          "graph_ms": 0.0900199175812304,
+          "speedup": 28.596281440849626,
+          "decision_match": 99.71,
+          "timing_decision_match": 99.825,
+          "avg_seen": 659.57875,
+          "avg_visited": 4.60525
+        }
+      },
+      "rank": [
+        0.15425976857474982,
+        0.38849064827525376,
+        46.65735625,
+        -29.132131078614783,
+        -23.631070753510926,
+        768,
+        -99.625625
+      ]
+    },
+    "erng": {
+      "dataset": "AMAZON",
+      "method": "ERNG",
+      "C": 2048,
+      "overlap": 4,
+      "degree": 16,
+      "entries": 2,
+      "ef": 16,
+      "min_speed": 25.795475403654354,
+      "avg_speed": 31.117187686534216,
+      "max_speed": 43.4279940866317,
+      "min_match": 99.3125,
+      "avg_match": 99.41,
+      "speed_cv": 0.23065300752030451,
+      "time_cv": 0.1744105424574814,
+      "speed_spread": 1.6835508323478856,
+      "avg_seen": 509.61,
+      "avg_visited": 8.51725,
+      "overhead": 65.70945,
+      "candidate_index": 3436,
+      "iter_block": "E2_edge_recall",
+      "block_index": 36,
+      "source_name": "method_chunks",
+      "source_path": "/home/saketh/json/final_named_artifacts_20260601/phase3_final320_method_centroid_chunks_ge99_20260724/amazon/amazon_erng_erng_c2_1536_2048_3072_qualified_minmatch_ge99.jsonl",
+      "per_q": {
+        "100": {
+          "direct_ms": 9.667654155404307,
+          "graph_ms": 0.22261341696139425,
+          "speedup": 43.4279940866317,
+          "decision_match": 99.425,
+          "timing_decision_match": 99.425,
+          "avg_seen": 514.943,
+          "avg_visited": 8.335
+        },
+        "200": {
+          "direct_ms": 5.425766380503774,
+          "graph_ms": 0.21033790986984968,
+          "speedup": 25.795475403654354,
+          "decision_match": 99.3125,
+          "timing_decision_match": 99.125,
+          "avg_seen": 509.574,
+          "avg_visited": 8.423
+        },
+        "500": {
+          "direct_ms": 4.575073485029861,
+          "graph_ms": 0.16019852389581501,
+          "speedup": 28.558774286867067,
+          "decision_match": 99.385,
+          "timing_decision_match": 99.725,
+          "avg_seen": 511.624,
+          "avg_visited": 8.5545
+        },
+        "1000": {
+          "direct_ms": 7.0774602519813925,
+          "graph_ms": 0.26520744210574776,
+          "speedup": 26.686506968983753,
+          "decision_match": 99.5175,
+          "timing_decision_match": 99.425,
+          "avg_seen": 502.299,
+          "avg_visited": 8.7565
+        }
+      },
+      "rank": [
+        0.23065300752030451,
+        0.1744105424574814,
+        65.70945,
+        -31.117187686534216,
+        -25.795475403654354,
+        2048,
+        -99.41
+      ]
+    },
+    "erng_gap": 1.9850566079194323,
+    "avg_centroid": 1408.0
+  }
+}

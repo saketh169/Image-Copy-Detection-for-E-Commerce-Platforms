@@ -1,0 +1,826 @@
+{
+  "cifar": {
+    "dataset": "cifar",
+    "dist": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/cifar/large_pool_cache/cifar_pool_asym_k17000_u9000_cifar-generalized-gap-accepted-003_425324b4d3_q100_tau0.000291274889605_dist.npz",
+    "q": {
+      "100": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/cifar/cifar_q100_report_variation_selected.json",
+        "tau": 0.0002912748896051198,
+        "known_n": 100,
+        "unknown_n": 100,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 77.0,
+            "unknown": 76.0,
+            "total": 76.5,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 77.0,
+            "unknown": 76.0,
+            "total": 76.5,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 86.0,
+            "unknown": 86.0,
+            "total": 86.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 86.0,
+            "unknown": 86.0,
+            "total": 86.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 81.0,
+            "unknown": 80.0,
+            "total": 80.5,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 79.0,
+            "unknown": 78.0,
+            "total": 78.5,
+            "dist_row": 15
+          }
+        ]
+      },
+      "200": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/cifar/cifar_q200_report_variation_selected.json",
+        "tau": 0.0002912748896051198,
+        "known_n": 200,
+        "unknown_n": 200,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 88.0,
+            "unknown": 88.0,
+            "total": 88.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 88.0,
+            "unknown": 88.0,
+            "total": 88.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 15
+          }
+        ]
+      },
+      "500": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/cifar/cifar_q500_report_variation_selected.json",
+        "tau": 0.0002912748896051198,
+        "known_n": 500,
+        "unknown_n": 500,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 88.0,
+            "unknown": 88.0,
+            "total": 88.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 88.0,
+            "unknown": 88.0,
+            "total": 88.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 76.2,
+            "total": 76.1,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 76.2,
+            "total": 76.1,
+            "dist_row": 15
+          }
+        ]
+      },
+      "1000": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/cifar/cifar_q1000_report_variation_selected.json",
+        "tau": 0.0002912748896051198,
+        "known_n": 1000,
+        "unknown_n": 1000,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 88.0,
+            "unknown": 87.9,
+            "total": 87.95,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 88.0,
+            "unknown": 87.9,
+            "total": 87.95,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 82.5,
+            "total": 79.25,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 80.9,
+            "total": 78.45,
+            "dist_row": 15
+          }
+        ]
+      }
+    }
+  },
+  "flickr": {
+    "dataset": "flickr",
+    "dist": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/flickr/large_pool_cache/flickr_pool_asym_k10000_u5000_flickr-fresh-bank-metric-layer-best_a338926af2_q100_tau2.03588570002e-06_dist.npz",
+    "q": {
+      "100": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/flickr/flickr_q100_report_variation_selected.json",
+        "tau": 2.0358857000246644e-06,
+        "known_n": 100,
+        "unknown_n": 100,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 82.0,
+            "unknown": 76.0,
+            "total": 79.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 82.0,
+            "unknown": 76.0,
+            "total": 79.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 87.0,
+            "unknown": 86.0,
+            "total": 86.5,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 87.0,
+            "unknown": 86.0,
+            "total": 86.5,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 79.0,
+            "unknown": 80.0,
+            "total": 79.5,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 79.0,
+            "unknown": 78.0,
+            "total": 78.5,
+            "dist_row": 15
+          }
+        ]
+      },
+      "200": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/flickr/flickr_q200_report_variation_selected.json",
+        "tau": 2.0358857000246644e-06,
+        "known_n": 200,
+        "unknown_n": 200,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 90.0,
+            "unknown": 76.0,
+            "total": 83.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 90.0,
+            "unknown": 76.0,
+            "total": 83.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 88.0,
+            "unknown": 88.0,
+            "total": 88.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 88.0,
+            "unknown": 88.0,
+            "total": 88.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 15
+          }
+        ]
+      },
+      "500": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/flickr/flickr_q500_report_variation_selected.json",
+        "tau": 2.0358857000246644e-06,
+        "known_n": 500,
+        "unknown_n": 500,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 96.0,
+            "unknown": 76.2,
+            "total": 86.1,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 96.0,
+            "unknown": 76.2,
+            "total": 86.1,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 88.8,
+            "unknown": 87.8,
+            "total": 88.3,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 88.8,
+            "unknown": 87.8,
+            "total": 88.3,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 15
+          }
+        ]
+      },
+      "1000": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/flickr/flickr_q1000_report_variation_selected.json",
+        "tau": 2.0358857000246644e-06,
+        "known_n": 1000,
+        "unknown_n": 1000,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 98.0,
+            "unknown": 82.8,
+            "total": 90.4,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 98.0,
+            "unknown": 82.8,
+            "total": 90.4,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 91.2,
+            "unknown": 84.0,
+            "total": 87.6,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 91.2,
+            "unknown": 84.0,
+            "total": 87.6,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 15
+          }
+        ]
+      }
+    }
+  },
+  "ucid": {
+    "dataset": "ucid",
+    "dist": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/ucid/fresh20_unique_4500_850/cache/ucid_fresh20_unique_k4500_u850_dist.npz",
+    "q": {
+      "100": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/ucid/ucid_q100_report_variation_selected.json",
+        "tau": 3.5645902244141325e-05,
+        "known_n": 100,
+        "unknown_n": 100,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 72.0,
+            "unknown": 72.0,
+            "total": 72.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 72.0,
+            "unknown": 72.0,
+            "total": 72.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 96.0,
+            "unknown": 88.0,
+            "total": 92.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 96.0,
+            "unknown": 88.0,
+            "total": 92.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 72.0,
+            "unknown": 72.0,
+            "total": 72.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 72.0,
+            "unknown": 72.0,
+            "total": 72.0,
+            "dist_row": 15
+          }
+        ]
+      },
+      "200": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/ucid/ucid_q200_report_variation_selected.json",
+        "tau": 3.5645902244141325e-05,
+        "known_n": 200,
+        "unknown_n": 200,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 76.0,
+            "total": 76.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 98.0,
+            "unknown": 88.0,
+            "total": 93.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 98.0,
+            "unknown": 88.0,
+            "total": 93.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 76.5,
+            "total": 76.25,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 77.0,
+            "total": 76.5,
+            "dist_row": 15
+          }
+        ]
+      },
+      "400": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/ucid/ucid_q400_report_variation_selected.json",
+        "tau": 3.5645902244141325e-05,
+        "known_n": 400,
+        "unknown_n": 400,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 76.75,
+            "total": 76.38,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 76.75,
+            "total": 76.38,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 99.0,
+            "unknown": 85.75,
+            "total": 92.38,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 99.0,
+            "unknown": 85.75,
+            "total": 92.38,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 77.5,
+            "total": 76.75,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 78.75,
+            "total": 77.38,
+            "dist_row": 15
+          }
+        ]
+      },
+      "500": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/ucid/ucid_q500_report_variation_selected.json",
+        "tau": 3.5645902244141325e-05,
+        "known_n": 500,
+        "unknown_n": 500,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 76.8,
+            "total": 76.4,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 76.8,
+            "total": 76.4,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 99.2,
+            "unknown": 84.8,
+            "total": 92.0,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 99.2,
+            "unknown": 84.8,
+            "total": 92.0,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 78.0,
+            "total": 77.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 79.2,
+            "total": 77.6,
+            "dist_row": 15
+          }
+        ]
+      }
+    }
+  },
+  "amazon": {
+    "dataset": "amazon",
+    "dist": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/amazon/large_pool_cache/amazon_pool_asym_k5000_u5000_shape875_dist.npz",
+    "q": {
+      "100": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/amazon/amazon_q100_report_variation_selected.json",
+        "tau": 3.77926170358478e-08,
+        "known_n": 100,
+        "unknown_n": 100,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 81.0,
+            "total": 78.5,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 81.0,
+            "total": 78.5,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 96.0,
+            "unknown": 93.0,
+            "total": 94.5,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 96.0,
+            "unknown": 93.0,
+            "total": 94.5,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 80.0,
+            "unknown": 84.0,
+            "total": 82.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 82.0,
+            "unknown": 87.0,
+            "total": 84.5,
+            "dist_row": 15
+          }
+        ]
+      },
+      "200": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/amazon/amazon_q200_report_variation_selected.json",
+        "tau": 3.77926170358478e-08,
+        "known_n": 200,
+        "unknown_n": 200,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 77.0,
+            "unknown": 81.0,
+            "total": 79.0,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 77.0,
+            "unknown": 81.0,
+            "total": 79.0,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 98.5,
+            "unknown": 96.0,
+            "total": 97.25,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 98.5,
+            "unknown": 96.0,
+            "total": 97.25,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 81.5,
+            "unknown": 86.5,
+            "total": 84.0,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 81.0,
+            "unknown": 85.5,
+            "total": 83.25,
+            "dist_row": 15
+          }
+        ]
+      },
+      "500": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/amazon/amazon_q500_report_variation_selected.json",
+        "tau": 3.77926170358478e-08,
+        "known_n": 500,
+        "unknown_n": 500,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 76.0,
+            "unknown": 80.6,
+            "total": 78.3,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 76.0,
+            "unknown": 80.6,
+            "total": 78.3,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 89.0,
+            "unknown": 90.4,
+            "total": 89.7,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 89.0,
+            "unknown": 90.4,
+            "total": 89.7,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 76.0,
+            "unknown": 87.4,
+            "total": 81.7,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 76.0,
+            "unknown": 87.6,
+            "total": 81.8,
+            "dist_row": 15
+          }
+        ]
+      },
+      "1000": {
+        "q_json": "/home/saketh/json/final_named_artifacts_20260601/phase3_large_pool_subselect_all4_20260717/final_selected_report_variation_current_20260720/amazon/amazon_q1000_report_variation_selected.json",
+        "tau": 3.77926170358478e-08,
+        "known_n": 1000,
+        "unknown_n": 1000,
+        "rows": [
+          {
+            "attack": "flip_h",
+            "known": 72.0,
+            "unknown": 85.6,
+            "total": 78.8,
+            "dist_row": 10
+          },
+          {
+            "attack": "flip",
+            "known": 72.0,
+            "unknown": 85.6,
+            "total": 78.8,
+            "dist_row": 11
+          },
+          {
+            "attack": "resize",
+            "known": 86.6,
+            "unknown": 90.0,
+            "total": 88.3,
+            "dist_row": 13
+          },
+          {
+            "attack": "resize_compress",
+            "known": 86.6,
+            "unknown": 90.0,
+            "total": 88.3,
+            "dist_row": 12
+          },
+          {
+            "attack": "watermark_text",
+            "known": 72.0,
+            "unknown": 88.6,
+            "total": 80.3,
+            "dist_row": 14
+          },
+          {
+            "attack": "watermark_asset",
+            "known": 72.0,
+            "unknown": 88.6,
+            "total": 80.3,
+            "dist_row": 15
+          }
+        ]
+      }
+    }
+  }
+}

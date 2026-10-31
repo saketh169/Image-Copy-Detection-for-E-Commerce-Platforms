@@ -1,0 +1,51 @@
+{
+  "format_version": 1,
+  "embedding_space": {
+    "description": "Calibrated ConvNeXt descriptor space used by the final copy-verification pipeline",
+    "dimensions": 384,
+    "distance": "Euclidean L2 after diagonal metric scaling"
+  },
+  "source_campaign": "phase3_full_centroid_sweep_hnsw_erng_20260721",
+  "datasets": {
+    "ucid": {
+      "bank_embeddings": 4500,
+      "configuration": { "centroids": 256, "overlap": 2, "entries": 1, "degree": 24, "ef": 16, "ef_construction": 96 },
+      "files": {
+        "centroid_layout": "ucid_cpp_centroids_c256.npz",
+        "hnsw_graph": "ucid_hnsw_c256_d24.npz",
+        "overlap_membership": "ucid_overlap_c256_r2.npz",
+        "bucket_radii": "ucid_radii_c256_o2.npy"
+      }
+    },
+    "flickr": {
+      "bank_embeddings": 10000,
+      "configuration": { "centroids": 2048, "overlap": 3, "entries": 1, "degree": 12, "ef": 12, "ef_construction": 64 },
+      "files": {
+        "centroid_layout": "flickr_cpp_centroids_c2048.npz",
+        "hnsw_graph": "flickr_hnsw_c2048_d12.npz",
+        "overlap_membership": "flickr_overlap_c2048_r3.npz",
+        "bucket_radii": "flickr_radii_c2048_o3.npy"
+      }
+    },
+    "cifar": {
+      "bank_embeddings": 17000,
+      "configuration": { "centroids": 1536, "overlap": 3, "entries": 2, "degree": 32, "ef": 16, "ef_construction": 128 },
+      "files": {
+        "centroid_layout": "cifar_cpp_centroids_c1536.npz",
+        "hnsw_graph": "cifar_hnsw_c1536_d32.npz",
+        "overlap_membership": "cifar_overlap_c1536_r3.npz",
+        "bucket_radii": "cifar_radii_c1536_o3.npy"
+      }
+    },
+    "amazon": {
+      "bank_embeddings": 35000,
+      "configuration": { "centroids": 2048, "overlap": 1, "entries": 3, "degree": 32, "ef": 32, "ef_construction": 128 },
+      "files": {
+        "centroid_layout": "amazon_cpp_centroids_c2048.npz",
+        "hnsw_graph": "amazon_hnsw_c2048_d32.npz",
+        "overlap_membership": "derived from centroid_layout.labels because overlap equals 1",
+        "bucket_radii": "amazon_radii_c2048_o1.npy"
+      }
+    }
+  }
+}
